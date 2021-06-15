@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91299947-57e3-439d-9d98-1ef9e998d6be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>L6\6.2\functions_in_use.py</StartupFile>
+    <StartupFile>L7\7.2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,11 +31,18 @@
     <Compile Include="L6\6.2\list_functions.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="L7\7.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="L7\7.2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="L6\" />
     <Folder Include="L6\6.1\" />
     <Folder Include="L6\6.2\" />
+    <Folder Include="L7\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
