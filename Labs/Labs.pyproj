@@ -47,6 +47,7 @@
     <Folder Include="L6\6.2\" />
     <Folder Include="L7\" />
     <Folder Include="L8\" />
+    <Folder Include="L9\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

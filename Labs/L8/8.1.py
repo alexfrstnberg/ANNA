@@ -114,6 +114,6 @@ for _ in range(int(input('Enter number of objects: '))):
 
 for index, item in enumerate(obj_list):
     
-    print('='*15, '\n{}. '.format(index), item, '='*15, sep='')
+    print('='*15, '\n{}. '.format(index+1), item, '='*15, sep='')
 
 
