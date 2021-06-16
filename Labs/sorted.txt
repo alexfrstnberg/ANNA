@@ -1,0 +1,11 @@
+Anna: 100
+Yana: 100
+Max: 97
+Marrie: 95
+Michal: 90
+Ilon: 85
+Serge: 81
+Mikle: 80
+Denys: 75
+Christina: 65
+Olha: 62
