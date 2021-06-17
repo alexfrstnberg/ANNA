@@ -15,5 +15,5 @@ ax.spines['top'].set_color('none')
 
 plt.plot(x, y, 'pink', label = 'Y = 1/x*sin(5*x)')
 plt.legend(loc='upper right')
-plt.savefig(os.path.join('L14', '14.1.png'))
+plt.savefig(os.path.join('L13', '13.1.png'))
 plt.show()
