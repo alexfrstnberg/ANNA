@@ -3,7 +3,7 @@ from collections import OrderedDict
 
 def print_file(name):
     print('File ' + name + ':')
-    with open(name, 'r') as f:
+    with open(name) as f:
         data = f.read()
         print(data)
 
@@ -13,14 +13,14 @@ def write_to_file(name='random.txt', text='no matter what', mode='a'):
 
 
 def find_in_file(name, seq):
-    with open(name, 'r') as f:
+    with open(name) as f:
         content = f.read()
         try: print(seq, 'found at the position', content.index(seq))
         except ValueError as err: print('"',seq,'" ',err, sep='')
 
 def sorting(source_name, path_name='sorted.txt'):
     data = {}
-    with open(source_name, 'r') as f:
+    with open(source_name) as f:
         for item in f.readlines():
             if item != '\n':
                 key, value = item.strip().split(':')

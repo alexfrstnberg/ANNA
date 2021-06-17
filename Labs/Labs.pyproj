@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91299947-57e3-439d-9d98-1ef9e998d6be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>L9\9.1.py</StartupFile>
+    <StartupFile>L9\9.2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -41,6 +41,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="L9\9.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="L9\9.2.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
