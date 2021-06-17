@@ -1,6 +1,8 @@
+import os
+
 def write_to_another_file(source, target, reversed=False):
-    with open(source) as s:
-        with open(target, "w") as t:
+    with open(os.path.join('L9', source)) as s:
+        with open(os.path.join('L9', target), "w") as t:
             if reversed==False:
                 for line in s:
                     t.write(line)
