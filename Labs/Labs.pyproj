@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91299947-57e3-439d-9d98-1ef9e998d6be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>L14\14.2.py</StartupFile>
+    <StartupFile>L11\11.1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="L11\11.1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="L13\13.1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -65,6 +68,7 @@
     <Folder Include="L9\" />
     <Folder Include="L13\" />
     <Folder Include="L14\" />
+    <Folder Include="L11\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
