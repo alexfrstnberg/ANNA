@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91299947-57e3-439d-9d98-1ef9e998d6be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>L11\11.1.py</StartupFile>
+    <StartupFile>L11\11.2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="L11\11.1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="L11\11.2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="L13\13.1.py">
